@@ -1,0 +1,7 @@
+{
+  "name": "Elixir_IonicVue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
