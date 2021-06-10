@@ -26,6 +26,8 @@ import './theme/variables.css';
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
+
+//IonicModule.forRoot({ swipeBackEnabled: false });
   
 router.isReady().then(() => {
   app.mount('#app');

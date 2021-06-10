@@ -3,7 +3,7 @@
     <!-- HEADER -->
     <ion-header class="ion-no-border">
         <ion-toolbar>
-            <ion-img style="height: 66px;" src="assets/images/elixir_logo_white.png"></ion-img>
+            <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo_white.png"></ion-img></router-link>
         </ion-toolbar>
     </ion-header>
 
@@ -11,7 +11,7 @@
     <ion-menu side="start" menu-id="first" content-id="main">
         <ion-header>
             <ion-toolbar color="black">
-                <ion-img style="height: 66px;" src="assets/images/elixir_logo_white.png"></ion-img>
+                <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo_white.png"></ion-img></router-link>
             </ion-toolbar>
         </ion-header>
         <ion-content>
@@ -24,6 +24,7 @@
             </ion-list>
         </ion-content>
     </ion-menu>
+
     <ion-router-outlet id="main"></ion-router-outlet>
 </template>
 
