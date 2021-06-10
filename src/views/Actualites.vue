@@ -3,18 +3,30 @@
 
         <NavBar></NavBar>
 
+
+        <ion-content>
+
+            <ion-title class="oswald">Actualités</ion-title>
+
+
+        </ion-content>
+
+
+
     </ion-page>
 </template>
 
 <script>
 
     import NavBar from "../components/NavBar.vue";
-    import { IonPage } from "@ionic/vue";
+    import { IonPage, IonContent, IonTitle } from "@ionic/vue";
 
     export default {
         components: {
             IonPage,
-            NavBar
+            NavBar,
+            IonContent,
+            IonTitle
         }
 
     }

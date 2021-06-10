@@ -1,6 +1,24 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+/* CUSTOM CSS */
+.montserrat{
+  --ion-font-family: 'Montserrat';
+}
+
+.oswald{
+  --ion-font-family: Oswald;
+}
+
+.noDecoration{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../assets/fonts/Oswald-VariableFont_wght.ttf');
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/

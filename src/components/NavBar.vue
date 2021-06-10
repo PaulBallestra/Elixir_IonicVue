@@ -16,11 +16,11 @@
         </ion-header>
         <ion-content>
             <ion-list>
-                <router-link to="/actualites" style="text-decoration: none;"><ion-item>Actualités</ion-item></router-link>
-                <router-link to="/service" style="text-decoration: none;"><ion-item>Service</ion-item></router-link>
-                <router-link to="/contact" style="text-decoration: none;"><ion-item>Contact</ion-item></router-link>
-                <router-link to="/login" style="text-decoration: none;"><ion-item>Login</ion-item></router-link>
-                <router-link to="/register" style="text-decoration: none;"><ion-item>Register</ion-item></router-link>
+                <router-link to="/actualites" class="noDecoration"><ion-item class="montserrat">ACTUALITÉS</ion-item></router-link>
+                <router-link to="/service" class="noDecoration"><ion-item class="montserrat">SERVICE</ion-item></router-link>
+                <router-link to="/contact" class="noDecoration"><ion-item class="montserrat">CONTACT</ion-item></router-link>
+                <router-link to="/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
+                <router-link to="/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
             </ion-list>
         </ion-content>
     </ion-menu>

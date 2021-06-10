@@ -5,6 +5,8 @@
         <!-- NAVBAR -->
         <NavBar></NavBar>
 
+
+
     </ion-page>
 </template>
 
