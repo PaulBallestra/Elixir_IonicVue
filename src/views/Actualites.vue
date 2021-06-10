@@ -1,8 +1,6 @@
 <template>
-
     <ion-page>
 
-        <!-- NAVBAR -->
         <NavBar></NavBar>
 
     </ion-page>
@@ -16,7 +14,7 @@
     export default {
         components: {
             IonPage,
-            NavBar,
+            NavBar
         }
 
     }
