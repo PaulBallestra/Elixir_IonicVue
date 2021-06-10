@@ -1,5 +1,5 @@
 <template>
-    <ion-app>
+    <ion-app style="background-image: url('assets/images/guitarlotof.jpg'); background-repeat: cover;">
 
       <ion-router-outlet/>
 

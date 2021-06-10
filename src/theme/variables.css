@@ -23,13 +23,13 @@ h1, h2, h3, h4, h5, p{
   font-family: 'Montserrat Medium';
   font-size: 1em;
   margin: 0;
-  padding: 0 35px;
+  padding: 0 25px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-
+/* ACTUALITE */
 /* CARD ACTUALITE */
 .cardActualite{
   margin: 0;
@@ -68,8 +68,20 @@ h1, h2, h3, h4, h5, p{
   text-align: end;
 }
 
+/* SERVICE */
+.serviceParagraphContent{
+  text-align: center;
+  font-family: 'Montserrat Medium';
+  padding: 0 25px;
+}
+
 .noDecoration{
   text-decoration: none;
+}
+
+.btnCustom{
+  font-family: 'Montserrat';
+  --ion-button-border-radius: 0px;
 }
 
 /** Ionic CSS Variables **/
