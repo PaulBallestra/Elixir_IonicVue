@@ -23,7 +23,7 @@
             </ion-grid>
 
             <!-- CONTENT DE LA PAGE -->
-            <ion-grid>
+            <ion-grid style="margin-bottom: 25px;">
 
                 <ion-row>
                     <img src="assets/images/blue_elixir (2).png" style="padding: 0 35px; margin-top: 15px;"/>
@@ -39,8 +39,12 @@
 
                 </ion-row>
 
+                <ion-row class="serviceParagraphContent" style="margin-top: 75px;">
+                    Selon vos besoin, deux abonnements sont disponibles. Tous les mois ou tous les ans. Chaque abonnement à ses spécificités.
+                </ion-row>
+
                 <!-- MONTHLY ABONNEMENT -->
-                <ion-row style="margin-top: 75px;">
+                <ion-row style="margin-top: 15px;">
                     <ion-card style="margin: 0 auto;">
                         <ion-card-header style="padding: 15px 0;">
                             <ion-card-title class="ion-text-center">Mois</ion-card-title>
@@ -90,14 +94,12 @@
 
                 </ion-row>
 
-                <ion-row class="serviceParagraphContent" style="margin-top: 25px;">
-                    Selon vos besoin, deux abonnements sont disponibles. Tous les mois ou tous les ans. Chaque abonnement à ses spécificités.
-                </ion-row>
-
 
             </ion-grid>
 
         </ion-content>
+
+        <Footer></Footer>
 
     </ion-page>
 </template>
@@ -105,6 +107,7 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
+    import Footer from '../components/Footer.vue'
     import { IonPage, IonContent, IonGrid, IonRow, IonCol, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonButton } from "@ionic/vue";
 
     export default {
@@ -119,7 +122,8 @@
             IonCardHeader,
             IonCardContent,
             IonCardTitle,
-            IonButton
+            IonButton,
+            Footer
         }
 
     }
