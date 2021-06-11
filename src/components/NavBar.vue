@@ -2,8 +2,8 @@
 
     <!-- HEADER -->
     <ion-header class="ion-no-border">
-        <ion-toolbar>
-            <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo.png"></ion-img></router-link>
+        <ion-toolbar style="--background: rgba(0, 0, 0, 0.95);">
+            <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo_white.png"></ion-img></router-link>
         </ion-toolbar>
     </ion-header>
 
@@ -14,7 +14,7 @@
                 <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo.png"></ion-img></router-link>
             </ion-toolbar>
         </ion-header>
-        <ion-content>
+        <ion-content style="--background: rgba(0, 0, 0, 1);">
             <ion-list>
                 <router-link to="/actualites" class="noDecoration"><ion-item class="montserrat">ACTUALITÉS</ion-item></router-link>
                 <router-link to="/service" class="noDecoration"><ion-item class="montserrat">SERVICE</ion-item></router-link>
