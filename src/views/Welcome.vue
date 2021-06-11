@@ -43,11 +43,35 @@
             </ion-slides>
 
             <!-- INFOS -->
-            <div class="">
+            <div style="background-color: white;">
+
+                <ion-grid>
+
+                    <ion-row>
+                        <ion-col style="margin-top: 10px;">
+                            <p class="titlePage ion-text-center" style="font-size: 1.5em; color: black;"> UN SON INCROYABLE QUI DURE </p>
+                            <p class="sousTitlePage" style="font-size: 0.8em; color: black;">Les cordes Elixir ont une longévité sonore toujours inégalée par rapport a n'importe quelle autre corde du marché. Le son reste pur, concert après concert, record après record.</p>
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-row>
+                        <ion-col style="margin: 15px 0;">
+                            <p class="titlePage ion-text-center" style="font-size: 1.5em; color: black;"> UNE PERFORMANCE FIABLE </p>
+                            <p class="sousTitlePage" style="font-size: 0.8em; color: black;">Les cordes Elixir peuvent resister à d'énormes écarts de température, voire aux pires conditions d'humidité. Nos cordes offrent une performance constante quel que soit l'environnement.</p>
+                        </ion-col>
+                    </ion-row>
+
+                    <ion-row>
+                        <ion-col style="margin: 15px 0;">
+                            <p class="titlePage ion-text-center" style="font-size: 1.5em; color: black;"> UNE PLUS GRANDE STABILITÉ D'ACCORDAGE </p>
+                            <p class="sousTitlePage" style="font-size: 0.8em; color: black;">Les musiciens affirment que les cordes Elixir restent accordées plus longtemps, évitant ainsi de devoir vous réaccorder sans arrêt.</p>
+                        </ion-col>
+                    </ion-row>
+
+                </ion-grid>
 
             </div>
 
-            UN SON INCROYABLE QUI DURE
 
         </ion-content>
 
@@ -58,7 +82,7 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
-    import { IonPage, IonSlides, IonSlide, IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonButton, IonContent } from "@ionic/vue";
+    import { IonPage, IonSlides, IonSlide, IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonButton, IonContent, IonGrid, IonRow, IonCol } from "@ionic/vue";
 
     export default {
         components: {
@@ -72,7 +96,10 @@
             IonCardTitle,
             IonCardContent,
             IonButton,
-            IonContent
+            IonContent,
+            IonGrid,
+            IonRow,
+            IonCol
         },
         setup() {
             // Optional parameters to pass to the swiper instance. See http://idangero.us/swiper/api/ for valid options.
