@@ -84,6 +84,18 @@ h1, h2, h3, h4, h5, p{
   --ion-button-border-radius: 0px;
 }
 
+.inputCustom{
+  border-radius: 3px;
+  background-color: white;
+  border: 0px;
+  margin-top: 7px;
+  color: black;
+}
+
+input{
+  --ion-font-family: 'Montserrat';
+}
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
