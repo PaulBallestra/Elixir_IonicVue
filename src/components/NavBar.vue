@@ -1,7 +1,7 @@
 <template>
 
     <!-- HEADER -->
-    <ion-header class="ion-no-border" style="--background: rgba(0, 0, 0, 0.8);">
+    <ion-header class="ion-no-border">
         <ion-toolbar>
             <router-link to="/" class="noDecoration"><ion-img style="height: 66px;" src="assets/images/elixir_logo.png"></ion-img></router-link>
         </ion-toolbar>

@@ -30,6 +30,9 @@
 
                         <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary">Login</ion-button>
 
+                        <p class="subButtonLabel"> Mot de passe oublié ? </p>
+
+
                     </ion-col>
                 </ion-row>
             </ion-grid>

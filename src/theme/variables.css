@@ -87,12 +87,21 @@ h1, h2, h3, h4, h5, p{
   --ion-button-border-radius: 0px;
 }
 
+/* LOGIN / REGISTER */
 .inputCustom{
   border-radius: 3px;
   background-color: white;
-  border: 0px;
+  border: none;
   margin-top: 7px;
   color: black;
+}
+
+.subButtonLabel{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.85em;
+  color: gray;
+  text-decoration: underline;
 }
 
 input{
