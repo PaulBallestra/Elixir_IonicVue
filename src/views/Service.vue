@@ -1,6 +1,6 @@
 <template>
 
-    <ion-page style="background-color: rgba(255, 255, 255, 1);">
+    <ion-page>
 
         <NavBar></NavBar>
 
@@ -50,15 +50,15 @@
                             <ion-card-title class="ion-text-center">Mois</ion-card-title>
                         </ion-card-header>
 
-                        <hr style="background-color: white; margin: 0;">
+                        <hr style="background-color: black; margin: 0;">
 
                         <ion-card-content style="padding: 0;">
                             <ion-grid>
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">2x Elixir - Guitare Électrique</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">2x Elixir - Basse Électrique</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em;"> 24.99€ </p>
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Guitare Électrique</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Basse Électrique</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em; color: black;"> 24.99€ </p>
                                 <ion-button class="btnCustom" expand="full" color="primary">S'abonner</ion-button>
                             </ion-grid>
                         </ion-card-content>
@@ -74,19 +74,19 @@
                             <ion-card-title class="ion-text-center">Ans</ion-card-title>
                         </ion-card-header>
 
-                        <hr style="background-color: white; margin: 0;">
+                        <hr style="background-color: black; margin: 0;">
 
                         <ion-card-content style="padding: 0;">
                             <ion-grid>
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">5x Elixir - Guitare Électrique</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">3x Elixir - Basse Électrique</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">2x Elixir - Banjo</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px;">2x Elixir - Mandolin</p>
-                                <hr style="background-color: white; margin: 0;">
-                                <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em;"> 129.99€ </p>
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">5x Elixir - Guitare Électrique</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">3x Elixir - Basse Électrique</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Banjo</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Mandolin</p>
+                                <hr style="background-color: black; margin: 0;">
+                                <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em; color: black;"> 129.99€ </p>
                                 <ion-button class="btnCustom" expand="full" color="primary">S'abonner</ion-button>
                             </ion-grid>
                         </ion-card-content>

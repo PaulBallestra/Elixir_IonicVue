@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, p{
   margin: 0;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 .sousTitlePage{
@@ -27,6 +28,7 @@ h1, h2, h3, h4, h5, p{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 /* ACTUALITE */
@@ -73,6 +75,7 @@ h1, h2, h3, h4, h5, p{
   text-align: center;
   font-family: 'Montserrat Medium';
   padding: 0 25px;
+  color: white;
 }
 
 .noDecoration{
@@ -94,6 +97,14 @@ h1, h2, h3, h4, h5, p{
 
 input{
   --ion-font-family: 'Montserrat';
+}
+
+ion-content{
+  --background: rgba(0, 0, 0, 0.90);
+}
+
+ion-page{
+  --background: transparent;
 }
 
 /** Ionic CSS Variables **/
@@ -171,7 +182,7 @@ input{
   --ion-color-light-tint: #f5f6f9;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /*
    * Dark Colors
    * -------------------------------------------

@@ -1,6 +1,6 @@
 <template>
 
-    <ion-page style="background-color: rgba(255, 255, 255, 1);">
+    <ion-page>
 
         <NavBar></NavBar>
 
@@ -8,14 +8,14 @@
 
             <!-- HEADER PAGE -->
             <ion-grid>
-                <ion-row>
+                <ion-row style="border-radius: 5px;">
                     <ion-col>
                         <ion-grid style="margin-top: 22.5vh;">
                             <ion-row>
                                 <h3 class="titlePage">LOGIN</h3>
                             </ion-row>
                         </ion-grid>
-                        <div class="loginDiv" style="margin: auto; padding-bottom: 15px;">
+                        <div class="loginDiv">
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Email</ion-label>
                                 <ion-input class="inputCustom"></ion-input>
@@ -25,7 +25,11 @@
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Mot de passe</ion-label>
                                 <ion-input class="inputCustom"></ion-input>
                             </ion-item>
+
                         </div>
+
+                        <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary">Login</ion-button>
+
                     </ion-col>
                 </ion-row>
             </ion-grid>
@@ -38,7 +42,7 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
-    import { IonPage, IonGrid, IonRow, IonContent, IonLabel, IonInput, IonItem } from "@ionic/vue";
+    import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem } from "@ionic/vue";
 
     export default {
         components: {
@@ -49,7 +53,8 @@
             NavBar,
             IonLabel,
             IonInput,
-            IonItem
+            IonItem,
+            IonCol
         }
 
     }
