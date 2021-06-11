@@ -59,7 +59,7 @@
                                 <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Basse Électrique</p>
                                 <hr style="background-color: black; margin: 0;">
                                 <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em; color: black;"> 24.99€ </p>
-                                <ion-button class="btnCustom" expand="full" color="primary">S'abonner</ion-button>
+                                <ion-button class="btnCustom" expand="full" color="primary" fill="outline">S'abonner</ion-button>
                             </ion-grid>
                         </ion-card-content>
                     </ion-card>
@@ -87,7 +87,7 @@
                                 <p class="serviceParagraphContent" style="padding: 10px 35px; color: black;">2x Elixir - Mandolin</p>
                                 <hr style="background-color: black; margin: 0;">
                                 <p class="serviceParagraphContent" style="padding: 10px 35px; font-size: 1.25em; color: black;"> 129.99€ </p>
-                                <ion-button class="btnCustom" expand="full" color="primary">S'abonner</ion-button>
+                                <ion-button class="btnCustom" expand="full" color="primary" fill="outline">S'abonner</ion-button>
                             </ion-grid>
                         </ion-card-content>
                     </ion-card>

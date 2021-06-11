@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, p{
   font-weight: bold;
   font-size: 1.25em;
   margin: 0;
+  color: white;
 }
 
 .contentStyleCard{
@@ -104,9 +105,22 @@ h1, h2, h3, h4, h5, p{
   text-decoration: underline;
 }
 
-input{
-  --ion-font-family: 'Montserrat';
+/* WELCOME */
+.divParentSlider {
+  position: relative;
 }
+
+.child1 {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+}
+.child2 {
+  z-index: 1;
+  background: green;
+}
+
 
 ion-content{
   --background: rgba(0, 0, 0, 0.90);
