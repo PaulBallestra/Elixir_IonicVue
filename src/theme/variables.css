@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, p{
   --ion-background-color: rgba(0, 0, 0, 1);
 }
 
+a{
+  text-decoration: none;
+}
+
 /* HEADER PAGE */
 .titlePage{
   font-family: 'Oswald';
@@ -140,6 +144,11 @@ h1, h2, h3, h4, h5, p{
 .child2 {
   z-index: 1;
   background: green;
+}
+
+/* CURRENT ACTUALITE */
+.currentActualiteContent{
+  color: black;
 }
 
 ion-content{

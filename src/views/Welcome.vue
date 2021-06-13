@@ -29,7 +29,7 @@
                                     de vos besoins et selon vos critères
                                     de musicien sous forme d'abonnement.
                                 </ion-card-content>
-                                <ion-button fill="outline" class="btnCustom" style="margin-bottom: 15px; border-radius: 2px;">EN SAVOIR PLUS</ion-button>
+                                <a href="/service"><ion-button fill="outline" class="btnCustom" style="margin-bottom: 15px; border-radius: 2px;">EN SAVOIR PLUS</ion-button></a>
                             </ion-card>
                         </div>
                         <div class="child2">
@@ -103,6 +103,7 @@
         </ion-content>
 
     </ion-page>
+
 </template>
 
 <script>
@@ -128,7 +129,7 @@
             IonRow,
             IonCol,
             IonCardSubtitle,
-            Footer
+            Footer,
         },
         setup() {
             // Optional parameters to pass to the swiper instance. See http://idangero.us/swiper/api/ for valid options.

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import Welcome from '../views/Welcome.vue';
 import Actualites from '../views/Actualites.vue';
+import CurrentActualite from '../views/CurrentActualite.vue';
 import Service from '../views/Service.vue';
 import Contact from '../views/Contact.vue';
 import Login from '../views/Login.vue';
@@ -14,6 +15,10 @@ const routes = [
   {
     path: '/actualites',
     component: Actualites
+  },
+  {
+    path: '/actualites/1',
+    component: CurrentActualite
   },
   {
     path: '/service',
