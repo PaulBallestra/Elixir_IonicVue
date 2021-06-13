@@ -44,11 +44,13 @@
                         </div>
 
                         <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary">Register</ion-button>
-                        <p class="subButtonLabel"> Déjà client ? Connectez-vous ! </p>
+                        <p class="subButtonLabel" style="margin-bottom: 20vh;"> Déjà client ? Connectez-vous ! </p>
 
                     </ion-col>
                 </ion-row>
             </ion-grid>
+
+            <Footer></Footer>
 
         </ion-content>
 
@@ -58,6 +60,7 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
+    import Footer from '../components/Footer.vue'
     import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem } from "@ionic/vue";
 
     export default {
@@ -70,7 +73,8 @@
             IonLabel,
             IonInput,
             IonItem,
-            IonCol
+            IonCol,
+            Footer
         }
 
     }

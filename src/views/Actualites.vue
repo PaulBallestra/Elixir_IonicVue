@@ -41,6 +41,8 @@
 
             </ion-grid>
 
+            <Footer></Footer>
+
 
         </ion-content>
 
@@ -52,6 +54,7 @@
 
     import NavBar from '../components/NavBar.vue'
     import Actualite from '../components/Actualite.vue'
+    import Footer from '../components/Footer.vue'
     import {IonPage, IonContent, IonGrid, IonRow, IonCol } from "@ionic/vue";
 
     export default {
@@ -62,7 +65,8 @@
             IonGrid,
             IonRow,
             IonCol,
-            Actualite
+            Actualite,
+            Footer
         }
 
     }

@@ -97,9 +97,11 @@
 
             </ion-grid>
 
+            <Footer></Footer>
+
         </ion-content>
 
-        <Footer></Footer>
+
 
     </ion-page>
 </template>

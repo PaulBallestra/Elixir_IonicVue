@@ -31,6 +31,19 @@ h1, h2, h3, h4, h5, p{
   color: white;
 }
 
+/* FOOTER */
+.footerTitle{
+  font-family: 'Montserrat Thin';
+  text-align: center;
+}
+
+.footerSubtitle{
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 3px;
+  font-size: 0.75em;
+}
+
 /* ACTUALITE */
 /* CARD ACTUALITE */
 .cardActualite{
@@ -113,7 +126,7 @@ h1, h2, h3, h4, h5, p{
 .child1 {
   position: absolute;
   margin: 0 auto;
-  top: 0;
+  top: 7.5vw;
   left: 0;
 }
 .child2 {

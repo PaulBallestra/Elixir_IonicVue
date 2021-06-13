@@ -30,12 +30,14 @@
 
                         <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary">Login</ion-button>
 
-                        <p class="subButtonLabel"> Mot de passe oublié ? </p>
+                        <p class="subButtonLabel" style="margin-bottom: 33vh;"> Mot de passe oublié ? </p>
 
 
                     </ion-col>
                 </ion-row>
             </ion-grid>
+
+            <Footer></Footer>
 
         </ion-content>
 
@@ -45,6 +47,7 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
+    import Footer from '../components/Footer.vue'
     import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem } from "@ionic/vue";
 
     export default {
@@ -57,7 +60,8 @@
             IonLabel,
             IonInput,
             IonItem,
-            IonCol
+            IonCol,
+            Footer
         }
 
     }

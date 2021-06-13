@@ -73,6 +73,35 @@
             </div>
 
 
+            <!-- ACTALITES -->
+            <div>
+                <div class="child1" style="position: relative; top: 0;">
+                    <ion-card class="cardActualite">
+                        <div style="background-color: rgba(0,0,0,0.85);">
+
+                            <ion-card-header>
+                                <ion-card-subtitle class="dateStyleCard">16/05/2021</ion-card-subtitle>
+                                <h3 class="titleStyleCard">NOUVELLES CORDES 10-46</h3>
+                            </ion-card-header>
+
+                            <ion-card-content class="contentStyleCard">
+                                Les nouvelles cordes Elixir 10 - 46 pour guitare électrique sont arrivées ! Le revêtement Elixir est toujours présent et vos cordes n'auront jamais tenu aussi longtemps.
+                            </ion-card-content>
+
+                            <p class="readContentStyleCard"> Lire la suite >> </p>
+
+                        </div>
+                    </ion-card>
+                </div>
+                <div class="child2">
+                    <ion-img style="height: 90vh; object-fit: cover;" src="assets/images/guitarlotof.jpg"></ion-img>
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <Footer></Footer>
+
+
         </ion-content>
 
 
@@ -82,7 +111,8 @@
 <script>
 
     import NavBar from '../components/NavBar.vue'
-    import { IonPage, IonSlides, IonSlide, IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonButton, IonContent, IonGrid, IonRow, IonCol } from "@ionic/vue";
+    import Footer from '../components/Footer.vue'
+    import { IonPage, IonSlides, IonSlide, IonImg, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonButton, IonContent, IonGrid, IonRow, IonCol, IonCardSubtitle } from "@ionic/vue";
 
     export default {
         components: {
@@ -99,7 +129,9 @@
             IonContent,
             IonGrid,
             IonRow,
-            IonCol
+            IonCol,
+            IonCardSubtitle,
+            Footer
         },
         setup() {
             // Optional parameters to pass to the swiper instance. See http://idangero.us/swiper/api/ for valid options.
