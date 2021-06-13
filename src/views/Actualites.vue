@@ -5,7 +5,7 @@
 
         <ion-content>
 
-            <div class="contentPage">
+            <div class="contentPage" style="background: rgba(255, 255, 255, 0.85);">
 
                 <!-- HEADER PAGE -->
                 <ion-grid>

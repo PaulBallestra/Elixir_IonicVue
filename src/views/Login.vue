@@ -7,12 +7,12 @@
         <ion-content>
 
             <!-- HEADER PAGE -->
-            <ion-grid>
+            <ion-grid style="background: rgba(255, 255, 255, 0.85);">
                 <ion-row style="border-radius: 5px;">
                     <ion-col>
                         <ion-grid style="margin-top: 22.5vh;">
                             <ion-row>
-                                <h3 class="titlePage">LOGIN</h3>
+                                <h3 class="titlePage" style="color: black;">LOGIN</h3>
                             </ion-row>
                         </ion-grid>
                         <div class="loginDiv">
