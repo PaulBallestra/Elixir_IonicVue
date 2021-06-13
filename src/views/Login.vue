@@ -48,7 +48,7 @@
 
     import NavBar from '../components/NavBar.vue'
     import Footer from '../components/Footer.vue'
-    import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem } from "@ionic/vue";
+    import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem, IonButton } from "@ionic/vue";
 
     export default {
         components: {
@@ -61,7 +61,8 @@
             IonInput,
             IonItem,
             IonCol,
-            Footer
+            Footer,
+            IonButton
         }
 
     }

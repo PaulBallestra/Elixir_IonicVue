@@ -5,44 +5,46 @@
 
         <ion-content>
 
-            <!-- HEADER PAGE -->
-            <ion-grid>
-                <ion-row>
-                    <ion-col>
-                        <ion-grid>
-                            <ion-row>
-                                <h3 class="titlePage">ACTUALITÉS</h3>
-                            </ion-row>
-                            <ion-row>
-                                <p class="sousTitlePage">Retrouvez toutes nos actualités par date de sortie.</p>
-                            </ion-row>
-                        </ion-grid>
-                    </ion-col>
-                </ion-row>
-            </ion-grid>
+            <div class="contentPage">
 
-            <ion-grid>
+                <!-- HEADER PAGE -->
+                <ion-grid>
+                    <ion-row>
+                        <ion-col>
+                            <ion-grid>
+                                <ion-row>
+                                    <h3 class="titlePage">ACTUALITÉS</h3>
+                                </ion-row>
+                                <ion-row>
+                                    <p class="sousTitlePage">Retrouvez toutes nos actualités par date de sortie.</p>
+                                </ion-row>
+                            </ion-grid>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
 
-                <ion-row>
-                    <Actualite></Actualite>
-                </ion-row>
-                <ion-row>
-                    <Actualite></Actualite>
-                </ion-row>
-                <ion-row>
-                    <Actualite></Actualite>
-                </ion-row>
-                <ion-row>
-                    <Actualite></Actualite>
-                </ion-row>
-                <ion-row>
-                    <Actualite></Actualite>
-                </ion-row>
+                <ion-grid>
 
-            </ion-grid>
+                    <ion-row>
+                        <Actualite></Actualite>
+                    </ion-row>
+                    <ion-row>
+                        <Actualite></Actualite>
+                    </ion-row>
+                    <ion-row>
+                        <Actualite></Actualite>
+                    </ion-row>
+                    <ion-row>
+                        <Actualite></Actualite>
+                    </ion-row>
+                    <ion-row>
+                        <Actualite></Actualite>
+                    </ion-row>
+
+                </ion-grid>
+            </div>
 
             <Footer></Footer>
-
 
         </ion-content>
 

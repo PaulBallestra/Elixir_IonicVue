@@ -1,7 +1,6 @@
 <template>
 
-    <div class="footer">
-
+    <div style="background-color: rgba(0, 0, 0, 0.); bottom: 0;">
         <ion-grid>
 
             <ion-row>
@@ -37,8 +36,6 @@
             </ion-row>
 
         </ion-grid>
-
-
     </div>
 
 </template>

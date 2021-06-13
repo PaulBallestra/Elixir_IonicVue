@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, p{
   color: white;
 }
 
+.backgroundWhiteCustom{
+  --ion-background-color: rgba(0, 0, 0, 1);
+}
+
 /* HEADER PAGE */
 .titlePage{
   font-family: 'Oswald';
@@ -32,6 +36,10 @@ h1, h2, h3, h4, h5, p{
 }
 
 /* FOOTER */
+.footer{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
 .footerTitle{
   font-family: 'Montserrat Thin';
   text-align: center;
@@ -133,7 +141,6 @@ h1, h2, h3, h4, h5, p{
   z-index: 1;
   background: green;
 }
-
 
 ion-content{
   --background: rgba(0, 0, 0, 0.90);

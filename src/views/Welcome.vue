@@ -98,12 +98,9 @@
                 </div>
             </div>
 
-            <!-- FOOTER -->
             <Footer></Footer>
 
-
         </ion-content>
-
 
     </ion-page>
 </template>
