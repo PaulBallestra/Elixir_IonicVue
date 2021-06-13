@@ -18,12 +18,12 @@
                         <div class="loginDiv">
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Email</ion-label>
-                                <ion-input class="inputCustom"></ion-input>
+                                <ion-input class="inputCustom" type="email"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Mot de passe</ion-label>
-                                <ion-input class="inputCustom"></ion-input>
+                                <ion-input type="password" class="inputCustom"></ion-input>
                             </ion-item>
 
                         </div>
