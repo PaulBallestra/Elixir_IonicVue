@@ -27,6 +27,7 @@ const app = createApp(App)
   .use(IonicVue)
   .use(router);
 
+
 //IonicModule.forRoot({ swipeBackEnabled: false });
   
 router.isReady().then(() => {

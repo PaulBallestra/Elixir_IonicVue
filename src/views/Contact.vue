@@ -43,8 +43,14 @@
                 </ion-grid>
 
                 <!-- GOOGLE MAPS -->
+                <Gmaps
+                        :disableUI="true"
+                        :zoom="12"
+                        mapType="roadmap"
+                        :center="{ lat: 48.87055, lng: 2.3631643 }">
+                </Gmaps>
 
-
+                <!-- Séparateur -->
                 <hr style="color: black;">
 
                 <!-- QUESTIONNAIRE -->
@@ -116,7 +122,8 @@
 
     import NavBar from '../components/NavBar.vue'
     import Footer from '../components/Footer.vue'
-    import {IonPage, IonContent, IonGrid, IonRow, IonCol, IonButton} from "@ionic/vue";
+    import Gmaps from '../components/Gmaps.vue'
+    import {IonPage, IonContent, IonGrid, IonRow, IonCol, IonButton, IonLabel, IonInput, IonItem} from "@ionic/vue";
 
     export default {
         components: {
@@ -127,9 +134,12 @@
             IonRow,
             IonCol,
             IonButton,
-            Footer
-        }
-
+            Footer,
+            IonLabel,
+            IonInput,
+            IonItem,
+            Gmaps
+        },
     }
 
 </script>
