@@ -28,6 +28,7 @@ const app = createApp(App)
   .use(router);
 
 
+
 //IonicModule.forRoot({ swipeBackEnabled: false });
   
 router.isReady().then(() => {

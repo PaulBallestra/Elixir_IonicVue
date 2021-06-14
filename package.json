@@ -16,9 +16,14 @@
     "@capacitor/keyboard": "1.0.0",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
+    "body-parser": "^1.19.0",
     "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "@ionic/app-scripts": "2.1.4"
   },
   "devDependencies": {
     "@capacitor/cli": "3.0.0",

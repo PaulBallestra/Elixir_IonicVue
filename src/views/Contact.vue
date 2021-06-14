@@ -51,7 +51,7 @@
                 </Gmaps>
 
                 <!-- Séparateur -->
-                <hr style="color: black;">
+                <hr style="background-color: black;">
 
                 <!-- QUESTIONNAIRE -->
                 <ion-grid>

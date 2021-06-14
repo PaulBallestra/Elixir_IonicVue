@@ -10,7 +10,7 @@ import Register from '../views/Register.vue';
 const routes = [
   {
     path: '/',
-    component: Welcome
+    component: Welcome,
   },
   {
     path: '/actualites',
@@ -36,7 +36,7 @@ const routes = [
     path: '/register',
     component: Register
   }
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

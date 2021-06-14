@@ -16,6 +16,6 @@
         components: {
             IonApp,
             IonRouterOutlet,
-        }
+        },
     });
 </script>
