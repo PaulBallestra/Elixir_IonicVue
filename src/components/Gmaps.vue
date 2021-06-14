@@ -17,14 +17,15 @@
             // the google map object
             const map = ref(null);
 
-            // the map element in the templste
+            // the map element in the template
             const mapDivRef = ref(null);
 
             // load in the google script
             onMounted(() => {
                 // key is is the .env file
                 //const key = process.env.VUE_APP_GOOGLEMAPS_KEY;
-                const key = 'AIzaSyAlN7AL35_HU0CESW9EmjSyL4WAWtnwTTE';
+                const key = 'KEYGMAP';
+
 
                 // create the script element to load
                 const googleMapScript = document.createElement("SCRIPT");
