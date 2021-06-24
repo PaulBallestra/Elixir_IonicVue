@@ -19,8 +19,11 @@
                 <router-link to="/actualites" class="noDecoration"><ion-item class="montserrat">ACTUALITÉS</ion-item></router-link>
                 <router-link to="/service" class="noDecoration"><ion-item class="montserrat">SERVICE</ion-item></router-link>
                 <router-link to="/contact" class="noDecoration"><ion-item class="montserrat">CONTACT</ion-item></router-link>
-                <router-link to="/api/auth/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
-                <router-link to="/api/auth/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
+                <router-link v-if="user" to="/api/subscriptions" class="noDecoration"><ion-item class="montserrat">ABONNEMENT</ion-item></router-link>
+                <router-link v-if="user" to="/api/auth/me" class="noDecoration"><ion-item class="montserrat">PROFIL</ion-item></router-link>
+                <router-link v-if="user" to="/api/auth/logout" class="noDecoration"><ion-item class="montserrat">LOGOUT</ion-item></router-link>
+                <router-link v-if="!user" to="/api/auth/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
+                <router-link v-if="!user" to="/api/auth/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
             </ion-list>
         </ion-content>
     </ion-menu>
@@ -42,6 +45,7 @@
     } from '@ionic/vue';
 
     import { defineComponent } from 'vue';
+    import { mapGetters } from 'vuex';
 
     export default defineComponent({
         components: {
@@ -53,6 +57,9 @@
             IonImg,
             IonMenu,
             IonRouterOutlet,
+        },
+        data() {
+            return {};
         },
         methods: {
             openFirst() {
@@ -66,6 +73,9 @@
                 menuController.enable(true, 'custom');
                 menuController.open('custom');
             },
+        },
+        computed: {
+            ...mapGetters({'user': 'auth/user'})
         }
     });
 </script>
