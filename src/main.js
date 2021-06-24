@@ -23,11 +23,27 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+//CORS AU CAS OU
+//const cors = require('cors');
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
 
+/*app.use(morgan('dev'));
+app.use(bodyParser.urlencoded({'extended':'true'}));
+app.use(bodyParser.json());
+app.use(cors()); */
 
+/*
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header('Access-Control-Allow-Methods', 'DELETE, PUT');
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+*/
+//app.use(express.static('www'));
 
 //IonicModule.forRoot({ swipeBackEnabled: false });
   

@@ -42,6 +42,8 @@
     } from '@ionic/vue';
 
     import { defineComponent } from 'vue';
+    //import { mapActions } from "vuex"
+
 
     export default defineComponent({
         components: {
@@ -65,7 +67,7 @@
             openCustom() {
                 menuController.enable(true, 'custom');
                 menuController.open('custom');
-            }
+            },
         }
     });
 </script>
