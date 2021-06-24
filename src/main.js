@@ -23,12 +23,17 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import store from './store'
+
 //CORS AU CAS OU
 //const cors = require('cors');
 
-const app = createApp(App)
+import Vuex from 'vuex';
+
+const app = createApp(App).use(store)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+    .use(Vuex);
 
 /*app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({'extended':'true'}));
@@ -46,7 +51,7 @@ app.use(function(req, res, next) {
 //app.use(express.static('www'));
 
 //IonicModule.forRoot({ swipeBackEnabled: false });
-  
+
 router.isReady().then(() => {
   app.mount('#app');
 });

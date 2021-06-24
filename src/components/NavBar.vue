@@ -19,8 +19,8 @@
                 <router-link to="/actualites" class="noDecoration"><ion-item class="montserrat">ACTUALITÉS</ion-item></router-link>
                 <router-link to="/service" class="noDecoration"><ion-item class="montserrat">SERVICE</ion-item></router-link>
                 <router-link to="/contact" class="noDecoration"><ion-item class="montserrat">CONTACT</ion-item></router-link>
-                <router-link to="/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
-                <router-link to="/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
+                <router-link to="/api/auth/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
+                <router-link to="/api/auth/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
             </ion-list>
         </ion-content>
     </ion-menu>
@@ -42,8 +42,6 @@
     } from '@ionic/vue';
 
     import { defineComponent } from 'vue';
-    //import { mapActions } from "vuex"
-
 
     export default defineComponent({
         components: {

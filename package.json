@@ -2,6 +2,7 @@
   "name": "Elixir_IonicVue",
   "version": "0.0.1",
   "private": true,
+  "description": "An Ionic project",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -17,6 +18,7 @@
     "@ionic/app-scripts": "2.1.4",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "core-js": "^3.6.5",
     "cors": "^2.8.5",
@@ -24,7 +26,8 @@
     "morgan": "^1.10.0",
     "typescript": "2.3.4",
     "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@capacitor/cli": "3.0.0",
@@ -33,12 +36,12 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-plugin-vuex": "^5.0.0-beta.2",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/test-utils": "^2.0.0-0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "vue-jest": "^5.0.0-0"
-  },
-  "description": "An Ionic project"
+  }
 }

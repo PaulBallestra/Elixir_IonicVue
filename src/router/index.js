@@ -29,11 +29,13 @@ const routes = [
     component: Contact
   },
   {
-    path: '/login',
+    path: '/api/auth/login',
+    name: 'Login',
     component: Login
   },
   {
-    path: '/register',
+    path: '/api/auth/register',
+    name: 'Register',
     component: Register
   }
 ];

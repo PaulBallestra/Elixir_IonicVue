@@ -15,36 +15,36 @@
                                 <h3 class="titlePage" style="color: black;">REGISTER</h3>
                             </ion-row>
                         </ion-grid>
-                        <div class="loginDiv">
+                        <form @submit.prevent="register(form)" class="loginDiv">
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Nom</ion-label>
-                                <ion-input class="inputCustom" id="family_name"></ion-input>
+                                <ion-input class="inputCustom" id="family_name" v-model="form.family_name"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Prénom</ion-label>
-                                <ion-input class="inputCustom" id="given_name"></ion-input>
+                                <ion-input class="inputCustom" id="given_name" v-model="form.given_name"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Email</ion-label>
-                                <ion-input type="email" class="inputCustom" id="email"></ion-input>
+                                <ion-input type="email" class="inputCustom" id="email" v-model="form.email"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Mot de passe</ion-label>
-                                <ion-input type="password" class="inputCustom" id="password"></ion-input>
+                                <ion-input type="password" class="inputCustom" id="password" v-model="form.password"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Confirmation mot de passe</ion-label>
-                                <ion-input type="password" class="inputCustom" id="confirmPassword"></ion-input>
+                                <ion-input type="password" class="inputCustom" id="confirmPassword" v-model="form.confirmPassword"></ion-input>
                             </ion-item>
 
-                        </div>
+                            <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary" type="submit">Register</ion-button>
+                            <p class="subButtonLabel" style="margin-bottom: 20vh;"> Déjà client ? Connectez-vous ! </p>
 
-                        <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary" @click.prevent="register">Register</ion-button>
-                        <p class="subButtonLabel" style="margin-bottom: 20vh;"> Déjà client ? Connectez-vous ! </p>
+                        </form>
 
                     </ion-col>
                 </ion-row>
@@ -66,6 +66,11 @@
     import { mapActions} from 'vuex';
 
     export default {
+        data(){
+            return {
+                form: {}
+            };
+        },
         components: {
             IonPage,
             IonGrid,
