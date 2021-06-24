@@ -15,20 +15,21 @@
                                 <h3 class="titlePage" style="color: black;">LOGIN</h3>
                             </ion-row>
                         </ion-grid>
-                        <div class="loginDiv">
+                        <form @submit.prevent="login(form)" class="loginDiv">
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Email</ion-label>
-                                <ion-input class="inputCustom" type="email"></ion-input>
+                                <ion-input class="inputCustom" type="email" id="email" v-model="form.email"></ion-input>
                             </ion-item>
 
                             <ion-item>
                                 <ion-label position="stacked" style="--ion-font-family: 'Montserrat';">Mot de passe</ion-label>
-                                <ion-input type="password" class="inputCustom"></ion-input>
+                                <ion-input type="password" class="inputCustom" id="password" v-model="form.password"></ion-input>
                             </ion-item>
 
-                        </div>
+                            <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" type="submit" color="primary">Login</ion-button>
 
-                        <ion-button class="btnCustom" style="margin: 5px auto;" expand="full" color="primary">Login</ion-button>
+                        </form>
+
 
                         <p class="subButtonLabel" style="margin-bottom: 33vh;"> Mot de passe oublié ? </p>
 
@@ -50,7 +51,15 @@
     import Footer from '../components/Footer.vue'
     import { IonPage, IonGrid, IonRow, IonContent, IonCol, IonLabel, IonInput, IonItem, IonButton } from "@ionic/vue";
 
+    import { mapActions } from 'vuex';
+
     export default {
+        name: 'Login',
+        data() {
+            return {
+                form: {}
+            };
+        },
         components: {
             IonPage,
             IonGrid,
@@ -63,6 +72,9 @@
             IonCol,
             Footer,
             IonButton
+        },
+        methods: {
+            ...mapActions({'login': 'auth/login'})
         }
 
     }
