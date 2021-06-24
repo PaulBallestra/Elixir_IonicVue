@@ -21,7 +21,7 @@
                 <router-link to="/contact" class="noDecoration"><ion-item class="montserrat">CONTACT</ion-item></router-link>
                 <router-link v-if="user" to="/api/subscriptions" class="noDecoration"><ion-item class="montserrat">ABONNEMENT</ion-item></router-link>
                 <router-link v-if="user" to="/api/auth/me" class="noDecoration"><ion-item class="montserrat">PROFIL</ion-item></router-link>
-                <router-link v-if="user" to="/api/auth/logout" class="noDecoration"><ion-item class="montserrat">LOGOUT</ion-item></router-link>
+                <router-link v-if="user" @click.prevent="logout" to="/api/auth/logout" class="noDecoration"><ion-item class="montserrat">LOGOUT</ion-item></router-link>
                 <router-link v-if="!user" to="/api/auth/login" class="noDecoration"><ion-item class="montserrat">LOGIN</ion-item></router-link>
                 <router-link v-if="!user" to="/api/auth/register" class="noDecoration"><ion-item class="montserrat">REGISTER</ion-item></router-link>
             </ion-list>
@@ -45,7 +45,7 @@
     } from '@ionic/vue';
 
     import { defineComponent } from 'vue';
-    import { mapGetters } from 'vuex';
+    import { mapGetters, mapActions } from 'vuex';
 
     export default defineComponent({
         components: {
@@ -73,6 +73,7 @@
                 menuController.enable(true, 'custom');
                 menuController.open('custom');
             },
+            ...mapActions({'logout': 'auth/logout'})
         },
         computed: {
             ...mapGetters({'user': 'auth/user'})

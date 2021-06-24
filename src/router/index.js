@@ -4,7 +4,9 @@ import Actualites from '../views/Actualites.vue';
 import CurrentActualite from '../views/CurrentActualite.vue';
 import Service from '../views/Service.vue';
 import Contact from '../views/Contact.vue';
+import Me from '../views/Me.vue';
 import Login from '../views/Login.vue';
+import Logout from '../views/Logout.vue';
 import Register from '../views/Register.vue';
 
 const routes = [
@@ -29,6 +31,11 @@ const routes = [
     component: Contact
   },
   {
+    path: '/api/auth/me',
+    name: 'Me',
+    component: Me
+  },
+  {
     path: '/api/auth/login',
     name: 'Login',
     component: Login
@@ -37,6 +44,11 @@ const routes = [
     path: '/api/auth/register',
     name: 'Register',
     component: Register
+  },
+  {
+    path: '/api/auth/logout',
+    name: 'Logout',
+    component: Logout
   }
 ];
 

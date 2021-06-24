@@ -43,5 +43,8 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
     "vue-jest": "^5.0.0-0"
+  },
+  "engines": {
+    "node": "12.19.0"
   }
 }
